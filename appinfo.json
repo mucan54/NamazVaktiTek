@@ -1,0 +1,40 @@
+{
+    "appKeys": {
+        "G1": 0,
+        "G2": 2,
+        "G3": 3,
+        "G4": 4,
+        "G5": 5,
+        "Tch": 1
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "MucanWork",
+    "longName": "NamazVaktiTek",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "compatibility": "2.7",
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_20",
+                "type": "font"
+            },
+            {
+                "compatibility": "2.7",
+                "file": "fonts/perfect-dos-vga.ttf",
+                "name": "FONT_PERFECT_DOS_48",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "NamazVaktiTek",
+    "uuid": "c6ad9093-20ce-4d75-a812-eece4b6dae90",
+    "versionCode": 1,
+    "versionLabel": "3.8",
+    "watchapp": {
+        "watchface": false
+    }
+}
