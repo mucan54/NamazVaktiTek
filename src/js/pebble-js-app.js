@@ -124,7 +124,7 @@ function locationSuccess(pos) {
              dng=dmg;
                  }
     
-            console.log("Temperature is " +g1);
+            console.log("G is " +g1);
       storeItemKeepzer();
       // Assemble dictionary using our keys
       var dictionary = {
@@ -142,10 +142,10 @@ function locationSuccess(pos) {
       Pebble.sendAppMessage(dictionary,
         function(e) {
           
-          console.log("Weather info sent to Pebble successfully!");
+          console.log(" info sent to Pebble successfully!");
         },
         function(e) {
-          console.log("Error sending weather info to Pebble!");
+          console.log("Error sending info to Pebble!");
         }
       );
         }}      
